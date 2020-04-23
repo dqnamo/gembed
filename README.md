@@ -8,7 +8,7 @@ Add this to your Gemfile:
 ```ruby
 gem 'gembed'
 ```
-Then run `bundle install` and you're ready to go!
+Then run `bundle install` and you're ready to go! 🎉
 
 ## Usage
 #### Basic
@@ -22,9 +22,9 @@ Gembed.insert("https://www.youtube.com/watch?v=jNQXAC9IVRw")
 Gembed.insert("https://www.youtube.com/watch?v=jNQXAC9IVRw", 200)
 ```
 
-Voila! Thats it. For a full list of sources, options and supported url types click [here](https://github.com/iJohnPaul/gembed/wiki/Supported-Sources).
-
-## 🙌 Contributing
+💎 Voila! Thats it. For a full list of sources, options and supported url types click [here](https://github.com/iJohnPaul/gembed/wiki/Supported-Sources).
+  
+## Contributing
 Looking to add to the list of supported sources? We would love to have you contribute.
 1. Fork the repo
 2. Run the tests. `rake test`
