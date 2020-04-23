@@ -1,20 +1,20 @@
-require 'gembed/loom.rb'
+Dir[File.join(__dir__, 'gembed', '*.rb')].each { |file| require file }
 
 module Gembed
+
+  # Hash of source classes
+  @sources = Hash[
+    "loom.com" => Loom
+  ]
+
   class << self
     def insert(url)
-      find_source(url)
+      @sources[find_source(url)].embed(url)
     end
 
+    # Gets domain of the url
     def find_source(url)
-      source = url.match(/^(?:https?:\/\/)?(?:[^@\/\n]+@)?(?:www\.)?([^:\/?\n]+)/).to_s
-
-      case
-      when source.include?("loom.com")
-        Loom.embed(url)
-      # when source.include?("youtu.be") || provider.include?("youtube.com")
-      #   Youtube.embed(url)
-      end
+      source = url.match(/\/\/[www.]*[a-zA-Z0-9]*\.[a-z]*/).to_s.gsub(/\/\/[www.]*/,'')
     end
   end
 end
