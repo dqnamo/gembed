@@ -8,6 +8,10 @@ Gem::Specification.new do |s|
   s.email       = 'hello@johnraj.me'
   s.files       = ["lib/gembed.rb", "lib/gembed/loom.rb"]
   s.homepage    =
-    'https://rubygems.org/gems/gembed'
+    'https://github.com/iJohnPaul/gembed/'
   s.license       = 'MIT'
+  s.metadata = {
+  "source_code_uri"   => "https://github.com/iJohnPaul/gembed/",
+  "wiki_uri"          => "https://github.com/iJohnPaul/gembed/wiki"
+  }
 end
