@@ -26,8 +26,8 @@ Voila! Thats it. For a full list of sources, options and supported url types cli
 
 ## Contributing
 Looking to add to the list of supported sources? We would love to have you contribute.
-1.Fork the repo
-2.Run the tests. `rake test`
-3.Add the accepted urls to sources hash in `lib/gembed.rb`
-4.Create a new file for the source you want to add in `lib/gembed` with a class method called `def self.embed()`
-5.Write tests in `test_gembed.rb`
+1. Fork the repo
+2. Run the tests. `rake test`
+3. Add the accepted urls to sources hash in `lib/gembed.rb`
+4. Create a new file for the source you want to add in `lib/gembed` with a class method called `def self.embed()`
+5. Write tests in `test_gembed.rb`
