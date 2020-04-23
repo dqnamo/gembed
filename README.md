@@ -22,12 +22,12 @@ Gembed.insert("https://www.youtube.com/watch?v=jNQXAC9IVRw")
 Gembed.insert("https://www.youtube.com/watch?v=jNQXAC9IVRw", 200)
 ```
 
-💎 Voila! Thats it. For a full list of sources, options and supported url types click [here](https://github.com/iJohnPaul/gembed/wiki/Supported-Sources).
+Voila! Thats it. For a full list of sources, options and supported url types click [here](https://github.com/iJohnPaul/gembed/wiki/Supported-Sources).
   
 ## Contributing
 Looking to add to the list of supported sources? We would love to have you contribute.
 1. Fork the repo
-2. Run the tests. `rake test`
-3. Add the accepted urls to the sources hash in `lib/gembed.rb`
-4. Create a new file for the source you want to add in `lib/gembed` with a class method called `embed`
-5. Write tests in `test_gembed.rb`
+2. Run the tests `rake test`
+3. Write tests in `test_gembed.rb`
+4. Add the accepted urls to the sources hash in `lib/gembed.rb`
+5. Create a new file for the source you want to add in `lib/gembed` with a class method called `embed`
