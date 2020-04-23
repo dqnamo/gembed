@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'gembed'
-  s.version     = '0.8.0'
+  s.version     = '0.9.0'
   s.date        = '2020-04-22'
   s.summary     = "A gem for embeding media."
   s.description = "Embed media by URL."
