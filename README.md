@@ -1,5 +1,6 @@
 <img src="https://user-images.githubusercontent.com/25507937/80111718-231e9d00-8578-11ea-9f02-6847fbc25118.png" height=150>
 
+# Embed Media By URL
 Use gembed to embed media from various sources into your rails web application. View all [supported sources](https://github.com/iJohnPaul/gembed/wiki/Supported-Sources). 
 
 ## Install
