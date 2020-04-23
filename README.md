@@ -9,7 +9,7 @@ gem 'gembed'
 Then run `bundle install` and you're ready to go!
 
 ## Usage
-Pass in the media url.
+In your view pass in the media url.
 ```ruby
 Gembed.insert("https://www.youtube.com/watch?v=jNQXAC9IVRw")
 ```
