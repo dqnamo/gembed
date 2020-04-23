@@ -11,8 +11,15 @@ gem 'gembed'
 Then run `bundle install` and you're ready to go!
 
 ## Usage
+#### Basic
 In your view pass in the media url.
 ```ruby
 Gembed.insert("https://www.youtube.com/watch?v=jNQXAC9IVRw")
 ```
+
+#### With Options
+```ruby
+Gembed.insert("https://www.youtube.com/watch?v=jNQXAC9IVRw", 200)
+```
+
 Voila! Thats it. For a full list of sources, options and supported url types click [here](https://github.com/iJohnPaul/gembed/wiki/Supported-Sources).
