@@ -17,13 +17,6 @@ In your view pass in the media url.
 Gembed.insert("https://www.youtube.com/watch?v=jNQXAC9IVRw")
 ```
 
-#### Class Names
-By default the embed iframes are assigned the class `gembed`
-If you want to overwrite this just pass in your own custom class name.
-```ruby
-Gembed.insert("https://www.youtube.com/watch?v=jNQXAC9IVRw", 200)
-```
-
 Voila! Thats it. For a full list of sources, options and supported url types click [here](https://github.com/iJohnPaul/gembed/wiki/Supported-Sources).
   
 ## Contributing
