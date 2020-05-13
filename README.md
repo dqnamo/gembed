@@ -19,14 +19,7 @@ Gembed.insert("https://www.youtube.com/watch?v=jNQXAC9IVRw")
 
 Voila! Thats it. See below for a full list of sources, options and supported url types.
 
-#### With Options
-In your view pass in the media url.
-```ruby
-Gembed.insert("https://www.youtube.com/watch?v=jNQXAC9IVRw")
-```
-
 #### Get ID
-In your view pass in the media url.
 ```ruby
 Gembed.find_id("https://www.youtube.com/watch?v=jNQXAC9IVRw")
 ```
