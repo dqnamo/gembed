@@ -17,7 +17,7 @@ In your view pass in the media url.
 Gembed.insert("https://www.youtube.com/watch?v=jNQXAC9IVRw")
 ```
 
-Voila! Thats it. For a full list of sources, options and supported url types click [here](https://github.com/iJohnPaul/gembed/wiki/Supported-Sources).
+Voila! Thats it. See below for a full list of sources, options and supported url types.
   
 ## Supported Sources
 Here is the full list of sources supported on gembed:
