@@ -6,7 +6,8 @@ module Gembed
   @sources = Hash[
     "loom.com" => Loom,
     "youtube.com" => Youtube,
-    "youtu.be" => Youtube
+    "youtu.be" => Youtube,
+    "vimeo.com"  => Vimeo
   ]
 
   class << self
@@ -16,6 +17,15 @@ module Gembed
         return source_error(url)
       else
         @sources[source].embed(url)
+      end
+    end
+
+    def get_id(url)
+      source = find_source(url)
+      if @sources[source].nil?
+        return "Source not supported"
+      else
+        @sources[source].find_id(url)
       end
     end
 
