@@ -19,6 +19,13 @@ Gembed.insert("https://www.youtube.com/watch?v=jNQXAC9IVRw")
 
 Voila! Thats it. For a full list of sources, options and supported url types click [here](https://github.com/iJohnPaul/gembed/wiki/Supported-Sources).
   
+## Supported Sources
+Here is the full list of sources supported on gembed:
+| Source                                | Options          | Supported URL Schemes |
+| :------------------------------------ |:---------------- | --------------:|
+| [Loom](www.loom.com/)                 | -                | `https://useloom.com/share/*` `https://loom.com/share/*` `http://loom.com/share/*` `http://useloom.com/share/*`|
+| YouTube | - |`https://youtu.be/*` `https://youtube.com/*` `http://youtube.com/*` `http://youtu.be/*`|
+
 ## Contributing
 Looking to add to the list of supported sources? We would love to have you contribute.
 1. Fork the repo
