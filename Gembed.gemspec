@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'gembed'
-  s.version     = '1.0.6'
+  s.version     = '1.1.0'
   s.date        = '2020-04-22'
   s.summary     = "A ruby gem for embedding various media sources by url."
   s.description = "Use gembed to embed media in your applications. Give it a url and gembed will embed it for you. As simple as that! For a full list of sources see the wiki."
