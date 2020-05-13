@@ -29,6 +29,7 @@ Gembed.insert("https://www.youtube.com/watch?v=jNQXAC9IVRw")
 In your view pass in the media url.
 ```ruby
 Gembed.find_id("https://www.youtube.com/watch?v=jNQXAC9IVRw")
+>>> "jNQXAC9IVRw"
 ```
   
 ## Supported Sources
