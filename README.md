@@ -1,7 +1,7 @@
 <img src="https://user-images.githubusercontent.com/25507937/80151380-dc4d9900-85b1-11ea-94c8-1195d823ef67.png" height=50>
 
 # Embed Media By URL
-Use gembed to embed media from various sources into your application. Supports youtube, spotify, instagram and more. View all [supported sources](https://github.com/iJohnPaul/gembed/wiki/Supported-Sources). 
+Use gembed to embed media from various sources into your application. View all [supported sources](https://github.com/iJohnPaul/gembed/wiki/Supported-Sources). 
 
 ## Install
 Add this to your Gemfile:
