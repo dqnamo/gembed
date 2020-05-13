@@ -32,6 +32,7 @@ Here is the full list of sources supported on gembed:
 | :------------------------------------ |:---------------- | --------------:|
 | [Loom](www.loom.com/)                 | -                | `https://useloom.com/share/*` `https://loom.com/share/*` `http://loom.com/share/*` `http://useloom.com/share/*`|
 | YouTube | - |`https://youtu.be/*` `https://youtube.com/*` `http://youtube.com/*` `http://youtu.be/*`|
+| Vimeo | - |`https://vimeo.com`, `http://vimeo.com` |
 
 ## Contributing
 Looking to add to the list of supported sources? We would love to have you contribute.
